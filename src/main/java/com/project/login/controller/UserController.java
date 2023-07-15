@@ -21,7 +21,7 @@ import java.util.Objects;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/user")
-public class CreateUser {
+public class UserController {
 
 	@Autowired
 	private final GetUserUseCase useCase;
